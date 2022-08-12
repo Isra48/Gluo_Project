@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+.Card {
+  width: 100%;
+  background-color: #f2f2f2;
+  font-family: "Comic Neue";
+  font-size: 1.5em;
+  font-weight: 400;
+  border-radius: 4px;
+  display: Flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  border: solid 0.2px #000;
+  margin-bottom: 0.5em;
+}
+
+.card-data {
+  padding: 0.5em 1em;
+  gap: 1.5em;
+  display: flex;
+  max-width: 80%;
+}
+
+.Card_detail {
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.img_card {
+  border-radius: 30px;
+  background-color: blue;
+  width: 55px;
+  height: 55px;
+}
+.Erase {
+  display: flex;
+  justify-content: center;
+  background-color: #ce0404;
+  color: #f2f2f2;
+  width: 60px;
+  height: 100%;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+  min-width: 60px;
+}
+.Erase:hover {
+  width: 120px;
+  transition: width 0.3s;
+}
+.Erase:active {
+  width: 120px;
+  transition: width 0.3s;
+}
